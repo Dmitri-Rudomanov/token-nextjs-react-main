@@ -1,0 +1,73 @@
+@import "../../styles//variables.scss";
+
+.coins_container {
+  display: flex;
+  justify-content: center;
+}
+
+.coins_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid $coins-row-border-color;
+  width: 550px;
+  padding: 0rem 2rem;
+}
+
+.coins_row:hover {
+  background: $coins-row-background-hover-color;
+}
+
+.coins {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+}
+
+.coins_img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.coins_h1 {
+  font-size: 16px;
+  width: 150px;
+}
+
+.coins_symbol {
+  text-transform: uppercase;
+}
+
+.coins_data {
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.coins_price {
+  width: 110px;
+}
+
+.coins_volume {
+  width: 155px;
+}
+
+.coins_marketcap {
+  width: 230px;
+}
+
+.coins_percent {
+  width: 100px;
+}
+
+.red {
+  color: $coins-red;
+}
+
+.green {
+  color: $coins-green;
+}
